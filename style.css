@@ -1,0 +1,55 @@
+*{
+    font-family: 'Montserrat', sans-serif;;
+}
+.navbar-default .navbar-brand{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar {
+    padding: 20px;
+    background-color: #313e4f;
+    border: none;
+}
+
+#menu a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.row.avatar {
+    padding: 150px 200px 10px;
+
+}
+
+.jumbotron h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.jumbotron p {
+    color: white;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 22px;
+
+}
+
+.jumbotron{
+    background-color: #66ba9e;
+    padding-bottom: 100px;
+
+}
+
+.fas {
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
