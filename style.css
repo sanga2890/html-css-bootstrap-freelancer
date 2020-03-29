@@ -47,7 +47,7 @@
 
 }
 
-.fas {
+.jumbotron .fas {
     color: white;
     font-size: 30px;
     padding-left: 10px;
@@ -64,4 +64,16 @@
     display: inline-block;
     vertical-align: middle;
     margin: 30px 0 50px;
+
+}
+
+#hamburger .fas {
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    float: right;
+}
+
+#hamburger .fas:hover{
+    cursor: pointer;
 }
