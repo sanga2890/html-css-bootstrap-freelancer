@@ -33,7 +33,7 @@
     margin: 30px 0 50px;
 }
 
-.fas {
+.jumbotron .fas {
     font-size: 30px;
     color: white;
     margin: 0 10px;
@@ -51,4 +51,12 @@
 
 .jumbotron p {
     font-weight: 400;
+}
+
+#menu .fas {
+    color:white;
+    font-size: 30px;
+    padding-top: 10px;
+    float: right;
+
 }
