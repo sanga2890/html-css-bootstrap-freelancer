@@ -1,12 +1,6 @@
 *{
     font-family: 'Montserrat', sans-serif;;
 }
-.navbar-default .navbar-brand{
-    text-transform: uppercase;
-    font-size: 25px;
-    color: white;
-    font-weight: 700;
-}
 
 .navbar {
     padding: 20px;
@@ -14,49 +8,22 @@
     border: none;
 }
 
-#menu a{
-    text-transform: uppercase;
-    color: white;
+.navbar-default .navbar-brand {
+    color:white;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 25px;
 }
 
-.row.avatar {
-    padding: 150px 200px 10px;
-
+#menu a {
+    color:white;
+    font-weight: 600;
 }
-
-.jumbotron h1 {
-    text-transform: uppercase;
-    color: white;
-    font-weight: 700;
-    font-size: 70px;
+.avatar{
+    width: 25%;
+    padding-top: 150px;
+    margin: auto;
+    display: block;
 }
-
-.jumbotron p {
-    color: white;
-    text-transform: capitalize;
-    font-weight: 400;
-    font-size: 22px;
-
-}
-
-.jumbotron{
-    background-color: #66ba9e;
-    padding-bottom: 100px;
-
-}
-
-.jumbotron .fas {
-    color: white;
-    font-size: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 30px 0 50px;
-}
-
 .line {
     width: 100px;
     height: 5px;
@@ -64,16 +31,24 @@
     display: inline-block;
     vertical-align: middle;
     margin: 30px 0 50px;
-
 }
 
-#hamburger .fas {
-    color: white;
+.fas {
     font-size: 30px;
-    padding-top: 10px;
-    float: right;
+    color: white;
+    margin: 0 10px;
 }
 
-#hamburger .fas:hover{
-    cursor: pointer;
+.jumbotron{
+    background-color: #66ba9e;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.jumbotron h1 {
+    font-weight: 600;
+}
+
+.jumbotron p {
+    font-weight: 400;
 }
