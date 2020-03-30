@@ -203,6 +203,10 @@ form {
     background-color: #1abc9c;
 }
 
+ #contact-me .btn-primary:hover{
+    background-color: #0e987d;
+}
+
 footer{
     background-color: #2c3e50;
     color: white;
@@ -241,7 +245,7 @@ footer .marked:hover{
     padding-top: 10px;
 }
 
-footer .rounded a {
+footer .rounded .icon-center>a {
     width: 30px;
     height: 30px;
     font-size: 20px;
@@ -262,6 +266,7 @@ footer .rounded a {
 
  .rounded:hover{
     background-color: white;
+
 }
 
 footer .rounded a:hover{
