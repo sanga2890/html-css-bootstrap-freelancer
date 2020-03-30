@@ -101,25 +101,31 @@
     </div>
     </div>
 </section>
+<!-- inizio sezione contatti -->
 <section id="contact-me">
     <div class="container">
         <h2 class="text-uppercase text-center">contact me</h2>
         <div class="star-blue center-block text-center">
         <i class="fas fa-star"></i>
         </div>
+        <!-- centratura ulteriore rispetto al container - più stretta -->
     <div class="col-lg-8 col-lg-offset-2">
+        <!-- form da compilare con i dati utente -->
         <form>
             <input class="input" type="text" placeholder="name">
             <input class="input" type="text" placeholder="email address">
             <input class="input" type="text" placeholder="phone number">
             <input class="input message" type="text" placeholder="message">
         </form>
+        <!-- pulsante di invio dati -->
         <button type="button" class="btn btn-primary btn-lg">Send</button>
     </div>
     </div>
 </section>
+<!-- inizio piè di pagina -->
 <footer>
     <div class="container">
+        <!-- divisione in 3 colonne con utilizzo delle opportune classi bootstrap -->
         <div class="col-lg-4 text-center">
             <h3>location</h3>
             <p>
@@ -130,16 +136,37 @@
         </div>
         <div class="col-lg-4 text-center">
             <h3>around the web</h3>
-        </div>
+            <!-- classe "rounded" per fare il bordo rotondo intorno alle icone -->
+            <div class="rounded">
+                <!-- icone a loro volta inserite in un tag <a> e in un <div> per utilizzare la  position absolute e centrarle rispetto al loro contenitore -->
+                <div class="icon-center">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="rounded">
+                <div class="icon-center">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="rounded">
+                <div class="icon-center">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="rounded">
+                <div class="icon-center">
+                 <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+                </div>
         <div class="col-lg-4 text-center">
             <h3>about freelancer</h3>
-            <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <span>Start Bootstrap</span>.</p>
+            <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a class="marked" href="#">Start Bootstrap</a>.</p>
         </div>
     </div>
 </footer>
 <div class="copyright text-center">
     <p>Copyright © Your Website 2019</p>
-
 </div>
     </body>
 </html>
