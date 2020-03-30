@@ -53,10 +53,17 @@
     font-weight: 400;
 }
 
-#menu .fas {
+#hamburger .fas {
     color:white;
     font-size: 30px;
     padding-top: 10px;
     float: right;
+}
 
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: lightgrey;
+}
+
+#menu a:hover{
+    color: lightgrey;
 }
