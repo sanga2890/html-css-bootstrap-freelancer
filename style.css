@@ -196,15 +196,11 @@ form {
     padding-bottom: 200px;
 }
 
-#contact-me button {
-    background-color: #1abc9c;
+#contact-me .btn-primary {
     border: none;
     margin-top: 25px;
     padding: 20px 30px;
-}
-
-#contact-me button:hover{
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: #1abc9c;
 }
 
 footer{
