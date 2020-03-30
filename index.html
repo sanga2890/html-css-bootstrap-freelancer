@@ -10,19 +10,25 @@
         <title>Start Bootstrap</title>
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top col-xs-12">
+        <!-- header preso da bootstrap -->
+        <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
+        <!-- hamburger menu per mobile preso da bootstrap -->
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
         </button>
+        <!-- brand ovvero parte sinistra del header con "titolo" -->
                 <a class="navbar-brand text-uppercase" href="#">start bootstrap</a>
     </div>
+    <!-- classi per far apparire l'icone hamburger in mobile -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!-- posizione destra della navbar -->
         <ul class="nav navbar-nav navbar-right text-uppercase hidden-xs hidden-sm">
+            <!-- link/buttons della navbar -->
             <li><a class="navlink" href="#">portfolio</a></li>
             <li><a class="navlink" href="#">about</a></li>
             <li><a class="navlink" href="#">contact</a></li>
@@ -30,24 +36,30 @@
         </div>
   </div>
 </nav>
+<!-- classi per trasformazione del testo prese da bootstrap -->
 <div class="jumbotron text-center">
     <div class="container">
         <img class="avatar" src="img/avatar.svg" alt="avatar-male">
         <h1 class="text-uppercase">start bootstrap</h1>
+        <!-- divisorio con stellina al centro -->
           <div class="star center-block">
           <i class="fas fa-star"></i>
           </div>
         <p class="text-center text-capitalize">graphic artist - web designer - illustrator</p>
     </div>
 </div>
+<!-- inzio sezione portfolio con le varie immagini -->
 <section id="portfolio">
 <div class="container">
     <div class="row">
         <h2 class="text-uppercase text-center">portfolio</h2>
+        <!-- classe per il divisorio con stella al centro di colore blue -->
           <div class="star-blue center-block text-center">
           <i class="fas fa-star"></i>
           </div>
+          <!-- colonne per modalità desktop e tablet -->
         <div class="col-lg-4 col-md-6">
+            <!-- classi bootstrap per styling immagini prese dal sito ufficiale  -->
             <img class="immagine img-rounded img-responsive center-block" src="img/cabin.png" alt="casetta">
         </div>
         <div class="col-lg-4 col-md-6">
@@ -65,10 +77,29 @@
         <div class="col-lg-4 col-md-6">
             <img class="img-rounded img-responsive center-block" src="img/submarine.png" alt="yellow submarine">
         </div>
-
     </div>
-
 </div>
+</section>
+<!-- inizio sezione about -->
+<section id="about">
+    <div class="row">
+    <div class="container">
+        <h2 class="text-uppercase text-center">about</h2>
+          <div class="star center-block text-center">
+          <i class="fas fa-star"></i>
+          </div>
+          <div class="col-lg-4 col-lg-offset-2">
+              <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+          </div>
+          <div class="col-lg-4">
+              <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+          </div>
+          <!-- div per il bottone download  -->
+          <div class="col-lg-4 col-lg-offset-4">
+          <button type="button" class="btn-about center-block"><i class="fas fa-download"></i>Free Download!</button>
+          </div>
+    </div>
+    </div>
 </section>
     </body>
 </html>
